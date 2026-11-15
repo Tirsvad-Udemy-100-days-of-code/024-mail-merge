@@ -52,11 +52,15 @@ The generated letters appear in `Output/ReadyToSend/`. To change the guests or t
 
 ## 🧪 Tests
 
-Not applicable.
+The project has no automated tests. Check that the script compiles:
+
+```bash
+python -m py_compile main.py
+```
 
 ## 📄 License
 
-GNU Affero General Public License v3.0, see [LICENSE][license].
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See [LICENSE][license].
 
 ## 🔗 Links
 
@@ -66,12 +70,16 @@ GNU Affero General Public License v3.0, see [LICENSE][license].
 
 ## 📎 Appendix: Project documents
 
+The documents a newcomer needs, in reading order.
+
 | Document | What it tells you |
 | --- | --- |
-| [AGENTS.md][agents] | The rules AI agents follow in this repository |
-| [Artifact registry][registry] | Where each artifact type lives and the next version |
-| [Framework README][framework-readme] | The framework this project uses |
-| [Framework changelog][framework-changelog] | What changed in each framework release |
+| [Business Case][BC-001] | Why the project exists, its scope and success criteria |
+| [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
+| [Project Plan][PP-001] | The gateways and their schedule |
+| [Milestones][milestones] | One document per gateway: Go/No-Go criteria and tasks |
+| [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
 
 ---
 
@@ -79,7 +87,9 @@ GNU Affero General Public License v3.0, see [LICENSE][license].
 [documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/024-mail-merge/wiki
 [issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/024-mail-merge/issues
 [license]: ./LICENSE
-[agents]: ./AGENTS.md
+[BC-001]: ./docs/business-case.md
+[SA-001]: ./docs/stakeholder-analysis.md
+[PP-001]: ./docs/project-plan.md
+[milestones]: ./docs/milestones/
 [registry]: ./docs/artifact-registry.md
-[framework-readme]: ./framework/README.md
-[framework-changelog]: ./framework/CHANGELOG.md
+[TM-001]: ./docs/sqa/traceability-matrix.md
